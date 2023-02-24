@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .heading {
+    @apply font-bold text-lg;
+  }
+  .link {
+    @apply text-blue-700 underline hover:text-red-500 transition-colors;
+  }
+}

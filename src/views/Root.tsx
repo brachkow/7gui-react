@@ -1,22 +1,34 @@
 function Root() {
   return (
     <div className="Root">
-      <h1>7GUIs in React</h1>
-      <ul>
+      <header className="py-2">
+        <h1 className="heading">7GUIs in React</h1>
+      </header>
+      <ul className="flex flex-col gap-1">
         <li>
-          <a href="/counter">Counter</a>
+          <a href="/counter" className="link">
+            Counter
+          </a>
         </li>
         <li>
-          <a href="/converter">Temperature Converter</a>
+          <a href="/converter" className="link">
+            Temperature Converter
+          </a>
         </li>
         <li>
-          <a href="/booker">Flight Booker</a>
+          <a href="/booker" className="link">
+            Flight Booker
+          </a>
         </li>
         <li>
-          <a href="/timer">Timer</a>
+          <a href="/timer" className="link">
+            Timer
+          </a>
         </li>
         <li>
-          <a href="/crud">CRUD</a>
+          <a href="/crud" className="link">
+            CRUD
+          </a>
         </li>
       </ul>
     </div>
